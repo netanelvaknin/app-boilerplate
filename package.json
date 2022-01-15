@@ -46,8 +46,6 @@
   "lint-staged": {
     "src/**/*.{js,ts,jsx,tsx}": [
       "npm run lint:fix"
-    ],
-    "*.{tsx,ts}": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    ]
   }
 }
