@@ -2,7 +2,9 @@ import React from "react";
 
 export function App() {
         console.log("test");
-  return <>Hfello from my app boilerplate</>;
+  return <>
+    <p>lolll</p>
+    Hfello from my app boilerplate</>;
 }
 
 export default App;
