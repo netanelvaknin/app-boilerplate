@@ -1,7 +1,7 @@
 import React from "react";
 
 export function App() {
-  return <>Good luck! Have fun!</>
+  return <></>
 }
 
 export default App;

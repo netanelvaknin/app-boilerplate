@@ -36,8 +36,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^7.0.4",
     "eslint-plugin-storybook": "^0.5.5",
+    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "parcel": "^2.2.0",
     "prettier": "^2.5.1",
@@ -49,5 +49,9 @@
     "@types/react-dom": "^17.0.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "alias": {
+    "@hooks": "./src/hooks",
+    "@libs": "./src/libs"
   }
 }

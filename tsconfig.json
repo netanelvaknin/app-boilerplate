@@ -6,7 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "baseUrl": "src",
+    "baseUrl": ".",
     "experimentalDecorators": true,
     "jsx": "react-jsx",
     "isolatedModules": true,
@@ -21,7 +21,11 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext"
+    "module": "esnext",
+    "paths": {
+      "@hooks": ["src/hooks"],
+      "@libs": ["src/libs"]
+    }
   },
   "include": ["src"]
 }
