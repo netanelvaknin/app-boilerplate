@@ -1,9 +1,7 @@
 import React from "react";
 
 export function App() {
-  return <>
-        <p>lolll</p>
-    Hfello from my app boilerplate</>;
+  return <>Good luck! Have fun!</>
 }
 
 export default App;
