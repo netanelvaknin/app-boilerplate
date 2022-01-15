@@ -8,7 +8,7 @@
     "build": "parcel build",
     "lint": "eslint . --ext .tsx,.ts",
     "lint:fix": "eslint . --ext .tsx,.ts --fix",
-    "test": "jest --coverage",
+    "test": "jest --coverage --passWithNoTests",
     "test:watch": "jest --watchAll --coverage",
     "prepare": "husky install"
   },
