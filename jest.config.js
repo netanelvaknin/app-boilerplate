@@ -9,8 +9,10 @@ module.exports = {
   collectCoverageFrom: [
     "<rootDir>/src/**/**/*.{ts,tsx}",
     "!<rootDir>/src/index.ts",
-    "!<rootDir>/src/components/index.ts",
-    "!<rootDir>/src/components/**/*.stories.{ts,tsx}",
+    "!<rootDir>/src/**/index.ts",
+    "!<rootDir>/src/index.tsx",
+    "!<rootDir>/src/App.tsx",
+    "!<rootDir>/src/**/**/*.stories.{ts,tsx}",
   ],
   testMatch: ["<rootDir>/src/**/**/__tests__/*.test.tsx"],
   setupFilesAfterEnv: ["<rootDir>/jest-setup.ts"],
