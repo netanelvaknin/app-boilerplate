@@ -14,7 +14,6 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 13,
         "sourceType": "module"
     },
     "plugins": [
@@ -26,7 +25,7 @@
         "import/extensions": [2, "never"],
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
         "react/jsx-indent": [2, 2, {"checkAttributes": true, "indentLogicalExpressions": true}],
-        "react/react-in-jsx-scope": "off",
+        "react/react-in-jsx-scope": "off"
     },
     "settings": {
         "import/resolver": {

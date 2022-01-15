@@ -2,3 +2,9 @@ node_modules
 public
 coverage
 build
+.gitignore
+.parcelrc.json
+.jest.config.js
+jest-setup.ts
+types
+src/**/**/__tests__/*.test.tsx

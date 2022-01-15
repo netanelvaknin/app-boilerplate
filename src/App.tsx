@@ -1,7 +1,7 @@
 import React from "react";
 
-export const App = () => {
+export function App() {
   return <>Hello from my app boilerplate</>;
-};
+}
 
 export default App;
